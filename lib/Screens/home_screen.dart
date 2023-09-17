@@ -80,8 +80,8 @@ class _HomeScreenState extends State<HomeScreen> {
                         color: Colors.black38,
                         height: MediaQuery.of(context).size.height,
                         child: ListView(
-                          children: [
-                            const SizedBox(
+                          children: const [
+                             SizedBox(
                               height: 100,
                             ),
                             // Row(
@@ -106,25 +106,25 @@ class _HomeScreenState extends State<HomeScreen> {
                             //   ],
                             // ),
                             CurrentWeather(),
-                            const SizedBox(
+                             SizedBox(
                               height: 20,
                             ),
-                            const SizedBox(
+                             SizedBox(
                               height: 15,
                             ),
                             // TodaysWeatherCard(),
-                            const SizedBox(
+                             SizedBox(
                               height: 15,
                             ),
                             WeeklyWeatherCard(),
-                            const SizedBox(
+                             SizedBox(
                               height: 15,
                             ),
                             WeatherProperty(),
-                            const SizedBox(
+                             SizedBox(
                               height: 15,
                             ),
-                            const DailyAstro(),
+                             DailyAstro(),
                           ],
                         ),
                       ),
